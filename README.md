@@ -1,2 +1,2 @@
 # Projeto-cadastro-clientes
- Projeto de cadastro de clientes feito com Flask, HTML, CSS e Bootstrap
+ Projeto de cadastro de clientes feito com Flask, HTML, CSS, Bootstrap e Banco de Dados MySQL
