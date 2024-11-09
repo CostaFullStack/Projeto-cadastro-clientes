@@ -16,8 +16,7 @@ def index():
 @app.route('/lista-clientes')
 def list_clientes():
     clientes = handler.session.query(Cliente).all()
-    return render_template('clientes.html',
-    clientes=clientes)
+    return render_template('clientes.html', clientes=clientes)
 
 @app.route('/add-cliente/', methods=['GET', 'POST'])
 def add_cliente():
